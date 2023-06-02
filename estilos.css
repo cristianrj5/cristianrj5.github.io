@@ -3,4 +3,22 @@ body{
     display: grid;
     grid-template-rows: auto 1fr;
     min-height: 100vh;
+    margin: 0 auto;
+}
+
+.btn{
+    display: flex;
+    gap: 50px;
+    background-color: #ece7e1;
+    padding: 20px;
+    font-size: 20px;
+}
+.conten{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.text{
+    justify-content: flex-start;
 }
