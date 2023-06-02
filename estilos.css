@@ -1,0 +1,6 @@
+body{
+    background-color: #ece7e1;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    min-height: 100vh;
+}
